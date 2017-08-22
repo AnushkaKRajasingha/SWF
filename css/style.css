@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.web-form-html-version{width: 500px; margin: 150px auto;}
+.scs-form-container{margin: 0 auto;width: 500px;/* display: initial; */}
+#scswebform{width: 100%; }
+#scswebform .elm-container{width: 50%;float: left;}
+#scswebform .email-field-holder{
+    /* max-height: 50px !important; */
+    border: 3px solid #ccc;
+}
+#scswebform .email-field-holder .email-field{
+    padding: .95em;
+    background-color: transparent;
+    width: 85%;
+    font-size: 1em;
+    border: none;
+}
+input.email-field:focus {
+    outline: none !important;
+}
+#scswebform .email-field-holder i{text-align: center;display: inline-block;padding: 0 4%;width: 1%;}
+input.submit-button {
+    padding: 0.8em 0.5em !important;
+    width: 100% !important;
+    background: rgb(243, 162, 86) !important;
+    border: 3px solid rgb(192, 116, 47) !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
